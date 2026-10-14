@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>ShareSeed</name>
+    <directory>shareseed</directory>
+    <description>Share a seed together with your unlocks. Whoever plays your code gets the same items, trinkets, cards and pills as you did, whatever they have unlocked themselves. Requires REPENTOGON.</description>
+    <version>1.0</version>
+    <visibility>Private</visibility>
+    <tag id="Lua"/>
+    <tag id="Tweaks"/>
+</metadata>
