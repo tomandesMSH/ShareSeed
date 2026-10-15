@@ -2,8 +2,42 @@
 <metadata>
     <name>ShareSeed</name>
     <directory>shareseed</directory>
-    <description>Share a seed together with your unlocks. Whoever plays your code gets the same items, trinkets, cards and pills as you did, whatever they have unlocked themselves. Requires REPENTOGON.</description>
-    <version>1.0</version>
+    <id>3819928092</id>
+    <description>[h1]ShareSeed - The Isaac Seed Unifier[/h1]
+
+Ever sent a friend the seed of an amazing run, only for them to get different items, rooms and bosses? That's because the game checks your [b]unlocks[/b] everywhere. Same seed + different unlocks = different run.
+
+[b]ShareSeed fixes that.[/b] It packs your seed [i]and[/i] your unlocks into one code, so whoever plays it gets the exact same run you did - floors, rooms, bosses, items, pills and curses - whether they have nothing unlocked or Dead God.
+
+[h2]How to use[/h2]
+Open the console and click [b]ShareSeed -> Share / play a seed[/b] in the menu bar, or use:
+[list]
+[*][b]shareseed[/b] - copy the current (or last) run's code to clipboard
+[*][b]shareseed play[/b] - play the code from your clipboard
+[*][b]shareseed info[/b] - see what's in a code and how many unlocks you're missing
+[*][b]shareseed stop[/b] - return to your own unlocks
+[/list]
+The sharer needs the mod installed while playing the run they want to share.
+
+[h2]Important[/h2]
+[list]
+[*][b]Steam keeps achievements.[/b] If the sharer has unlocks you don't, Steam will count them as earned. Your save gets your own unlocks back afterwards, but Steam can't be undone. Codes from players with fewer unlocks than you never touch Steam.
+[*][b]Don't uninstall mid-run.[/b] Keep ShareSeed installed until a shared run is over.
+[/list]
+
+[h2]Requirements &amp; compatibility[/h2]
+[list]
+[*][b]Repentance+[/b] required
+[*][url=https://repentogon.com][img]https://raw.githubusercontent.com/tomandesMSH/ShareSeed/main/repentogon.gif[/img][/url] required
+[*]Compatible with Treasure Room Start
+[*]Mods that change generation must match on both sides
+[*]Co-op and modded characters aren't supported
+[/list]
+
+[i]Dedicated to Kayhos - so he can continue the "solving your runs" series.[/i]
+
+More info on GitHub: [url=https://github.com/tomandesMSH/ShareSeed]GitHub[/url]</description>
+    <version>1.2</version>
     <visibility>Private</visibility>
     <tag id="Lua"/>
     <tag id="Tweaks"/>

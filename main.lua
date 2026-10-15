@@ -329,10 +329,24 @@ end
 -- Starting a shared run
 ------------------------------------------------------------------------------------------------
 
+-- Notifications don't word-wrap, so break long text into lines ourselves.
+local function wrap(text, width)
+  local lines, line = {}, ""
+  for word in text:gmatch("%S+") do
+    if line ~= "" and #line + 1 + #word > width then
+      lines[#lines + 1], line = line, word
+    else
+      line = line == "" and word or (line .. " " .. word)
+    end
+  end
+  lines[#lines + 1] = line
+  return table.concat(lines, "\n")
+end
+
 local function notify(text, kind)
   status = text
   log(text)
-  if ImGui and ImGui.PushNotification then ImGui.PushNotification(text, kind or 0, 8000) end
+  if ImGui and ImGui.PushNotification then ImGui.PushNotification(wrap(text, 50), kind or 0, 8000) end
 end
 
 local function unfired(r)
