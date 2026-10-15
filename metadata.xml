@@ -38,7 +38,7 @@ The sharer needs the mod installed while playing the run they want to share.
 
 More info on GitHub: [url=https://github.com/tomandesMSH/ShareSeed]GitHub[/url]</description>
     <version>1.2</version>
-    <visibility>Private</visibility>
+    <visibility>Public</visibility>
     <tag id="Lua"/>
     <tag id="Tweaks"/>
 </metadata>
